@@ -4,6 +4,7 @@ p {
     word-spacing: 2px;
     font-family: Serif;
 
+
 }
 
 body{
@@ -30,13 +31,14 @@ a:hover{
 
 q {
     width:50%;
-    margin:0 auto;
+    /* margin:0 auto; */
+    display:block;
     font-size:160%;
     background-color:lightgrey;
-    border-left:3px;
-    border-style: dashed;
+    border-left:3px dashed;
     padding-left:30px;
-   margin: 80px auto;
+    margin:80px auto;
+
 
 
 }
