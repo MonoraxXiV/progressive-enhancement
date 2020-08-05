@@ -38,7 +38,17 @@ q {
     border-left:3px dashed;
     padding-left:30px;
     margin:80px auto;
+}
+.farmer{
+    border-color: darkgreen;
 
+}
+.villagers{
+    border-color: maroon;
+
+}
+
+[attribute="good"]{
 
 
 }
