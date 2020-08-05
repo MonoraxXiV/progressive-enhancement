@@ -7,12 +7,12 @@ p {
 
 }
 
-body{
-    width:90%;
+body {
+    width: 90%;
     margin: auto;
 
-    background: rgb(255,255,255);
-    background: linear-gradient(344deg, rgba(255,255,255,1) 0%, rgba(121,241,30,1) 13%, rgba(2,159,220,1) 83%, rgba(0,212,255,1) 100%);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(344deg, rgba(255, 255, 255, 1) 0%, rgba(121, 241, 30, 1) 13%, rgba(2, 159, 220, 1) 83%, rgba(0, 212, 255, 1) 100%);
     /*background-image: url("Leylines.jpg");
     background-position: bottom right;
     background-repeat: no-repeat;
@@ -25,31 +25,45 @@ a:visited {
     color: indigo;
 }
 
-a:hover{
+a:hover {
     color: teal;
 }
 
 q {
-    width:50%;
+    width: 50%;
     /* margin:0 auto; */
-    display:block;
-    font-size:160%;
-    background-color:lightgrey;
-    border-left:3px dashed;
-    padding-left:30px;
-    margin:80px auto;
+    display: block;
+    font-size: 160%;
+    background-color: lightgrey;
+    border-left: 3px dashed;
+    padding-left: 30px;
+    margin: 80px auto;
+    font-style: italic;
 }
-.farmer{
+
+.farmer {
     border-color: darkgreen;
 
 }
-.villagers{
+
+.villagers {
     border-color: maroon;
 
 }
 
-[attribute="good"]{
+
+[attribute="Good"] {
+    text-transform: capitalize;
+    color:green;
+}
+
+[attribute="Bad"] {
+    text-transform: capitalize;
+    color:red;
+}
 
 
+header h1:nth-child(all) {
+    background-color: yellow;
 }
 
