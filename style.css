@@ -54,16 +54,32 @@ q {
 
 [attribute="Good"] {
     text-transform: capitalize;
-    color:green;
+    color: green;
 }
 
 [attribute="Bad"] {
     text-transform: capitalize;
-    color:red;
+    color: red;
 }
 
 
-header h1:nth-child(all) {
+header:first-of-type
+{
+    font-weight: bold;
     background-color: yellow;
 }
 
+tr:nth-child(even) {
+    background-color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgrey;
+}
+
+img{
+    float:inherit;
+    width:80%;
+    margin:80px
+
+}
