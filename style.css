@@ -11,9 +11,12 @@ body{
     margin: auto;
 
     background: rgb(255,255,255);
-    background-image: url("GRIFFON.png");
-    background-repeat: no-repeat;
     background: linear-gradient(344deg, rgba(255,255,255,1) 0%, rgba(121,241,30,1) 13%, rgba(2,159,220,1) 83%, rgba(0,212,255,1) 100%);
+    /*background-image: url("Leylines.jpg");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    Commented to keep readability
+    */
 
 }
 
@@ -28,7 +31,7 @@ a:hover{
 q {
     width:50%;
     margin:0 auto;
-    font-size:150%;
+    font-size:160%;
     background-color:lightgrey;
     border-left:3px;
     border-style: dashed;
