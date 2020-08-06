@@ -58,12 +58,12 @@ q {
 
 [attribute="Good"] {
     text-transform: capitalize;
-    color: green;
+    color: #12004e;
 }
 
 [attribute="Bad"] {
     text-transform: capitalize;
-    color: red;
+    color: #ff5800;
 }
 
 
@@ -119,6 +119,21 @@ ul {
 }
 
 h3 {
+    display: block;
+    float: left;
+    margin: 20px auto;
+    position: static;
+}
+
+h2 {
+    display: block;
+    float: left;
+    margin: 20px auto;
+    padding:10px;
+    position: static;
+}
+
+h4 {
     display: block;
     float: left;
     margin: 20px auto;
