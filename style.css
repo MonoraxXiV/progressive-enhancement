@@ -4,9 +4,8 @@ p {
     word-spacing: 2px;
     font-family: Serif;
     font-size: 14px;
-    display:block;
-    float:left;
-
+    display: block;
+    float: left;
 
 
 }
@@ -68,8 +67,7 @@ q {
 }
 
 
-header:first-of-type
-{
+header:first-of-type {
     font-weight: bold;
     background-color: yellow;
 }
@@ -82,47 +80,47 @@ tr:nth-child(odd) {
     background-color: lightgrey;
 }
 
-img{
-    float:left;
-    position:static;
-    width:100%;
+img {
+    float: left;
+    position: static;
+    width: 100%;
     display: block;
-    padding:20px;
-    margin:20px;
+    padding: 20px;
+    margin: 20px;
 
 }
 
-article{
-    display:block;
-    float:left;
+article {
+    display: block;
+    float: left;
 
 }
-h4{
-    display:block;
-    float:bottom;
+
+h4 {
+    display: block;
+    float: bottom;
 }
 
 
-table{
-    display:block;
-    float:bottom;
+table {
+    display: block;
+    float: bottom;
 }
 
 footer {
-    display:block;
-    float:left;
+    display: block;
+    float: left;
 }
 
-ul{
-    display:block;
-    float:bottom;
+ul {
+    display: block;
+    float: bottom;
     position: static;
 }
 
-h3{
-    display:block;
-    float:left;
-    margin:20px auto;
+h3 {
+    display: block;
+    float: left;
+    margin: 20px auto;
     position: static;
 }
-
