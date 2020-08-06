@@ -1,8 +1,9 @@
 p {
 
-    color: midnightblue;
+    color: #260101;
     word-spacing: 2px;
     font-family: Serif;
+    font-size: 14px;
     display:block;
     float:left;
 
@@ -13,7 +14,7 @@ p {
 body {
     width: 90%;
     margin: auto;
-
+    font-family: 'Open Sans', sans-serif;
     background: rgb(255, 255, 255);
     background: linear-gradient(344deg, rgba(255, 255, 255, 1) 0%, rgba(121, 241, 30, 1) 13%, rgba(2, 159, 220, 1) 83%, rgba(0, 212, 255, 1) 100%);
     /*background-image: url("Leylines.jpg");
@@ -84,8 +85,8 @@ tr:nth-child(odd) {
 img{
     float:left;
     position:static;
-    width:80%;
-    display: inline-block;
+    width:100%;
+    display: block;
     padding:20px;
     margin:20px;
 
@@ -98,11 +99,13 @@ article{
 }
 h4{
     display:block;
-    float:left;
+    float:bottom;
 }
+
+
 table{
     display:block;
-    float:left;
+    float:bottom;
 }
 
 footer {
@@ -112,7 +115,7 @@ footer {
 
 ul{
     display:block;
-    float:left;
+    float:bottom;
     position: static;
 }
 
@@ -122,3 +125,4 @@ h3{
     margin:20px auto;
     position: static;
 }
+
