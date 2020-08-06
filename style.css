@@ -3,6 +3,9 @@ p {
     color: midnightblue;
     word-spacing: 2px;
     font-family: Serif;
+    display:block;
+    float:left;
+
 
 
 }
@@ -39,6 +42,7 @@ q {
     padding-left: 30px;
     margin: 80px auto;
     font-style: italic;
+    position: static;
 }
 
 .farmer {
@@ -78,8 +82,43 @@ tr:nth-child(odd) {
 }
 
 img{
-    float:inherit;
+    float:left;
+    position:static;
     width:80%;
-    margin:80px
+    display: inline-block;
+    padding:20px;
+    margin:20px;
 
+}
+
+article{
+    display:block;
+    float:left;
+
+}
+h4{
+    display:block;
+    float:left;
+}
+table{
+    display:block;
+    float:left;
+}
+
+footer {
+    display:block;
+    float:left;
+}
+
+ul{
+    display:block;
+    float:left;
+    position: static;
+}
+
+h3{
+    display:block;
+    float:left;
+    margin:20px auto;
+    position: static;
 }
